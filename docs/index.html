@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chanakya Niti</title>
+    <meta
+      name="description"
+      content="Minimalist, searchable Chanakya Niti text organized by chapter."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div>
+        <h1>Chanakya Niti</h1>
+        <p class="subtitle">Kautiliya Niti Sutras · English text</p>
+      </div>
+      <label class="search-wrap" for="search-input">
+        <span class="visually-hidden">Search verses</span>
+        <input id="search-input" type="search" placeholder="Search verses..." autocomplete="off" />
+      </label>
+    </header>
+
+    <main class="layout">
+      <aside class="chapter-nav" aria-label="Chapter navigation">
+        <h2>Chapters</h2>
+        <nav id="chapter-list"></nav>
+      </aside>
+
+      <section class="content" aria-live="polite">
+        <div id="results-meta" class="results-meta"></div>
+        <div id="verses"></div>
+      </section>
+    </main>
+
+    <template id="verse-template">
+      <article class="verse-card">
+        <p class="verse-text"></p>
+        <div class="verse-meta-row">
+          <span class="verse-meta"></span>
+          <button class="copy-btn" type="button">Copy</button>
+        </div>
+      </article>
+    </template>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
