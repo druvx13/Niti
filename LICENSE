@@ -1,0 +1,332 @@
+LUCA – CLASSIC LICENSE
+          (Liberty Unrestricted for Creative Autonomy – Classic Edition)
+                    Version 1.0, February 2026
+
+ Copyright (C) 2026 [Anonymous]
+
+ Everyone is permitted to copy and distribute verbatim or modified copies
+ of this license document, and changing it is allowed as long as the name
+ is changed and the modified version is clearly distinguished from the
+ original LUCA – CLASSIC License.
+
+----------------------------------------------------------------------------
+
+TABLE OF CONTENTS
+
+1.   DEFINITIONS
+2.   GRANT OF COPYRIGHT LICENSE
+3.   GRANT OF PATENT LICENSE
+4.   CONDITIONS OF USE
+5.   CONTRIBUTIONS
+6.   NO WARRANTY; DISCLAIMER OF LIABILITY
+7.   INDEMNIFICATION
+8.   GOVERNING LAW AND DISPUTE RESOLUTION
+9.   INTELLECTUAL PROPERTY
+10.  TERMINATION
+11.  EXPORT CONTROL
+12.  GOVERNMENT USE
+13.  SEVERABILITY
+14.  WAIVER AND AMENDMENT
+15.  ENTIRE AGREEMENT
+16.  SPECIAL PROVISIONS FOR INDIA
+
+----------------------------------------------------------------------------
+
+1. DEFINITIONS
+
+   a) “Work” means the copyrightable work of authorship (including, without
+      limitation, software, source code, object code, documentation, images,
+      audio, video, data, firmware, or any combination thereof) offered
+      under the terms of this License.
+
+   b) “You” (or “Your”) means an individual or legal entity exercising
+      permissions granted by this License.
+
+   c) “Licensor” means the individual or legal entity that offers the Work
+      under this License.
+
+   d) “Contributor” means any individual or legal entity that intentionally
+      submits, posts, or otherwise makes available a Contribution to the
+      Work.
+
+   e) “Contribution” means any original work of authorship, including
+      modifications, additions, or improvements to the Work, that is
+      intentionally submitted to the Licensor for inclusion in the Work.
+
+   f) “Source Code” means the preferred form of the Work for making
+      modifications, including all modules, scripts, configuration files,
+      and interface definitions.
+
+   g) “Object Code” means any compiled, assembled, or otherwise mechanically
+      transformed form of the Source Code that is executable on a computer.
+
+   h) “Derivative Work” means any work, whether in Source Code or Object
+      Code form, that is based upon the Work, such as a modification,
+      translation, abridgment, expansion, or any other form in which the
+      Work may be recast, transformed, or adapted, including any compilation
+      or collective work that incorporates the Work or a portion thereof.
+
+   i) “You Accept” means that by copying, distributing, modifying, or
+      otherwise using the Work, You manifest assent to be bound by the
+      terms of this License.
+
+2. GRANT OF COPYRIGHT LICENSE
+
+   Subject to the terms and conditions of this License, Licensor hereby
+   grants to You a worldwide, royalty‑free, non‑exclusive, perpetual,
+   irrevocable (except as provided in Section 10) license to do the
+   following with the Work and any Derivative Works:
+
+      a) Use, reproduce, and display the Work in any medium or format,
+         whether now known or hereafter devised;
+
+      b) Modify, adapt, translate, or create Derivative Works from the Work;
+
+      c) Distribute, publicly perform, publicly display, or otherwise
+         communicate copies of the Work or Derivative Works to the public
+         by any means, including but not limited to physical distribution,
+         digital transmission, or embedding;
+
+      d) Sublicense, transfer, or convey the Work or Derivative Works to
+         third parties, provided that any sublicense or transfer includes a
+         copy of this License (or a notice that this License applies) and
+         that any further recipients are bound by the same terms.
+
+   The above rights may be exercised for any purpose, including commercial
+   purposes. No prior notice to or approval from the Licensor is required.
+
+3. GRANT OF PATENT LICENSE
+
+   Subject to the terms and conditions of this License, each Contributor
+   hereby grants to You a perpetual, worldwide, non‑exclusive, no‑charge,
+   royalty‑free, irrevocable (except as provided in Section 10) patent
+   license to make, have made, use, offer to sell, sell, import, and
+   otherwise transfer the Work and Derivative Works, where such license
+   applies only to those patent claims licensable by such Contributor that
+   are necessarily infringed by their Contribution(s) alone or by
+   combination of their Contribution(s) with the Work to which such
+   Contribution(s) was submitted. If You institute patent litigation
+   against any entity (including a cross‑claim or counterclaim in a
+   lawsuit) alleging that the Work or a Contribution incorporated within
+   the Work constitutes direct or contributory patent infringement, then
+   any patent licenses granted to You under this License for that Work
+   shall terminate as of the date such litigation is filed.
+
+4. CONDITIONS OF USE
+
+   Your exercise of the rights granted in Sections 2 and 3 is conditioned
+   upon Your compliance with the following:
+
+      a) You must retain in all copies of the Work or any Derivative Work
+         the copyright notice set forth at the top of this License (or a
+         reasonable facsimile thereof) together with a conspicuous notice
+         stating that the Work is provided under the terms of this License.
+
+      b) If You distribute a Derivative Work, You must include a copy of
+         this License or a hyperlink to its canonical text, and You may not
+         impose any additional restrictions on the rights granted by this
+         License to recipients of the Derivative Work.
+
+      c) You may not use the name, trademarks, service marks, or product
+         names of the Licensor or any Contributor to endorse or promote
+         products derived from the Work without specific prior written
+         permission, except as required to give attribution under clause
+         (a).
+
+      d) You may not represent that the Work is endorsed or supported by
+         the Licensor or any Contributor unless explicitly authorised in
+         writing.
+
+   In all cases, the fundamental permission of this License remains: You
+   may do whatever You wish with the Work, subject only to the minimal
+   conditions above.
+
+5. CONTRIBUTIONS
+
+   If You choose to submit a Contribution to the Work (whether through
+   pull requests, patches, electronic mail, or any other means), You
+   thereby grant to the Licensor and all subsequent recipients of the Work
+   a perpetual, worldwide, non‑exclusive, royalty‑free, irrevocable license
+   under all of Your copyright and patent rights to use, reproduce,
+   modify, display, perform, sublicense, and distribute Your Contribution
+   as part of the Work under the terms of this License. You represent that
+   You are legally entitled to grant such license and that Your
+   Contribution is Your original creation or that You have obtained all
+   necessary permissions to grant such license.
+
+6. NO WARRANTY; DISCLAIMER OF LIABILITY
+
+   6.1 THE WORK IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS
+       OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+       MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON‑INFRINGEMENT,
+       TITLE, OR THAT THE WORK IS FREE FROM DEFECTS, BUGS, OR ERRORS.
+
+   6.2 THE ENTIRE RISK AS TO THE QUALITY, PERFORMANCE, AND ACCURACY OF THE
+       WORK IS WITH YOU. SHOULD THE WORK PROVE DEFECTIVE, YOU ASSUME THE
+       COST OF ALL NECESSARY SERVICING, REPAIR, OR CORRECTION.
+
+   6.3 TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL
+       THE LICENSOR OR ANY CONTRIBUTOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+       INCIDENTAL, SPECIAL, EXEMPLARY, CONSEQUENTIAL, OR PUNITIVE DAMAGES
+       (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF PROFITS, LOSS OF
+       DATA, BUSINESS INTERRUPTION, OR ANY OTHER PECUNIARY LOSS) ARISING
+       OUT OF OR IN CONNECTION WITH THE USE OR INABILITY TO USE THE WORK,
+       WHETHER BASED ON CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT
+       LIABILITY, OR OTHERWISE, EVEN IF THE LICENSOR HAS BEEN ADVISED OF
+       THE POSSIBILITY OF SUCH DAMAGES.
+
+   6.4 THIS DISCLAIMER OF WARRANTY AND LIMITATION OF LIABILITY SHALL APPLY
+       NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED
+       REMEDY.
+
+7. INDEMNIFICATION
+
+   To the extent permitted by applicable law, You agree to indemnify, defend,
+   and hold harmless the Licensor and each Contributor from and against any
+   and all claims, damages, losses, liabilities, costs, and expenses
+   (including reasonable attorneys’ fees) arising out of or related to Your
+   use, modification, or distribution of the Work, including any claims
+   that Your use, modification, or distribution infringes or misappropriates
+   any third‑party intellectual property rights. This indemnification
+   obligation shall survive termination of this License.
+
+8. GOVERNING LAW AND DISPUTE RESOLUTION
+
+   8.1 This License and any dispute, claim, or controversy arising out of or
+       relating to it (whether in contract, tort, or otherwise) shall be
+       governed by and construed in accordance with the laws of the Republic
+       of India, without regard to its conflict of laws principles.
+
+   8.2 Any legal suit, action, or proceeding arising out of or related to
+       this License or the Work shall be instituted exclusively in the
+       courts located in New Delhi, Delhi, India. You waive any objection to
+       the venue in such courts and any claim of inconvenient forum.
+
+   8.3 As an alternative to litigation, either party may elect to resolve
+       any dispute through binding arbitration conducted in accordance with
+       the Arbitration and Conciliation Act, 1996 (as amended). The
+       arbitration shall be administered by a sole arbitrator mutually
+       agreed upon, or failing agreement, appointed by the Delhi
+       International Arbitration Centre (DIAC). The seat of arbitration
+       shall be New Delhi, and the proceedings shall be conducted in
+       English. Judgment upon the award rendered may be entered in any
+       court having jurisdiction thereof. The prevailing party shall be
+       entitled to recover reasonable costs and attorneys’ fees.
+
+   8.4 This License is deemed to be a binding contract under the Indian
+       Contract Act, 1872, and takes effect automatically upon Your
+       acceptance by use of the Work. No registration with any government
+       authority, trade body, or other organisation is required for this
+       License to be valid and enforceable.
+
+9. INTELLECTUAL PROPERTY
+
+   The Licensor retains all right, title, and interest in and to the Work
+   (including any copyrights, patents, trademarks, or other intellectual
+   property rights therein) except for the express rights granted to You
+   under Sections 2 and 3. Nothing in this License shall be construed as an
+   assignment or transfer of ownership of any intellectual property rights
+   from the Licensor to You. Any third‑party trademarks or logos appearing
+   in the Work remain the property of their respective owners.
+
+10. TERMINATION
+
+    10.1 This License and the rights granted hereunder will terminate
+         automatically without notice if You fail to comply with any term
+         or condition of this License. Upon termination, You must cease all
+         use, copying, distribution, and modification of the Work and
+         destroy any copies in Your possession or control.
+
+    10.2 If You initiate any legal proceeding (including a cross‑claim or
+         counterclaim) against the Licensor or any Contributor alleging
+         that the Work or any Contribution infringes a patent, then any
+         rights granted to You under this License shall terminate as of the
+         date such proceeding is filed.
+
+    10.3 Termination shall not affect the rights of any third parties who
+         have received copies of the Work from You under this License,
+         provided they remain in full compliance with its terms.
+
+11. EXPORT CONTROL
+
+    The Work may be subject to export control laws and regulations of the
+    Republic of India, including the Foreign Trade (Development and
+    Regulation) Act, 1992, and the rules thereunder. You agree to comply
+    with all applicable export and re‑export restrictions. You shall not
+    use, export, or re‑export the Work in violation of Indian law.
+
+12. GOVERNMENT USE
+
+    If the Work is acquired by or on behalf of any government entity, the
+    Work is provided with the same rights and restrictions as otherwise
+    provided in this License, and no additional rights are granted by
+    virtue of such government status.
+
+13. SEVERABILITY
+
+    If any provision of this License is held to be unenforceable or invalid
+    under applicable law, such provision shall be reformed to the minimum
+    extent necessary to make it enforceable and valid, and the remaining
+    provisions shall remain in full force and effect. In any case, the core
+    permission of this License – that You may do what You wish with the Work –
+    shall survive and be given effect to the greatest extent possible.
+
+14. WAIVER AND AMENDMENT
+
+    No waiver of any term of this License shall be effective unless in
+    writing and signed by the party against whom enforcement is sought. No
+    amendment or modification of this License shall be binding unless in
+    writing and signed by the Licensor. However, any user of the Work may
+    create a derivative license by changing the name and terms, provided it
+    is clearly distinguished from the original LUCA – CLASSIC License.
+
+15. ENTIRE AGREEMENT
+
+    This License constitutes the entire agreement between You and the
+    Licensor with respect to the Work and supersedes all prior or
+    contemporaneous understandings, whether written or oral, regarding such
+    subject matter.
+
+16. SPECIAL PROVISIONS FOR INDIA
+
+    Consistent with the laws of the Republic of India, including but not
+    limited to:
+
+       • The Indian Contract Act, 1872;
+       • The Copyright Act, 1957, as amended;
+       • The Patents Act, 1970, as amended;
+       • The Information Technology Act, 2000, as amended;
+       • The Arbitration and Conciliation Act, 1996, as amended; and
+       • The Foreign Trade (Development and Regulation) Act, 1992,
+
+    the following special provisions apply:
+
+       a) This License is a valid, enforceable agreement as soon as You
+          access, copy, distribute, or use the Work in any manner.
+          No registration with any governmental or non‑governmental body
+          (including but not limited to the Open Source Initiative or any
+          similar organisation) is required for this License to have legal
+          effect.
+
+       b) The disclaimers and limitations of liability set forth in Section 6
+          are deemed reasonable and are intended to be effective to the
+          fullest extent permitted by Indian law. If any such limitation is
+          found to be invalid or unenforceable in any particular
+          jurisdiction, the remaining limitations shall continue to apply.
+
+       c) Nothing in this License shall be interpreted to waive any rights
+          that cannot be waived under Indian law, including but not limited
+          to rights under consumer protection statutes or any mandatory
+          provisions of the Competition Act, 2002.
+
+       d) The arbitration provision in Section 8.3 is intended to provide a
+          swift and cost‑effective alternative to litigation. Any dispute
+          shall first be attempted to be resolved amicably through mutual
+          discussion before either party resorts to arbitration or
+          litigation.
+
+----------------------------------------------------------------------------
+
+   YOU ACKNOWLEDGE THAT YOU HAVE READ THIS LICENSE, UNDERSTAND IT, AND
+   AGREE TO BE BOUND BY ITS TERMS. BY USING, COPYING, OR DISTRIBUTING THE
+   WORK, YOU ACCEPT THIS LICENSE IN ITS ENTIRETY.
