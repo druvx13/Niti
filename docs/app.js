@@ -12,8 +12,14 @@ const state = {
 
 function parseChapter(raw, chapterNumber) {
   const lines = raw.split(/\r?\n/);
-  const chapterTitleLine = lines.find((line) => /^\|\|\s*.*Chapter\s*\|\|$/.test(line.trim()));
-  const chapterTitle = chapterTitleLine ? chapterTitleLine.replace(/^\|\|\s*/, '').replace(/\s*\|\|$/, '') : `Chapter ${chapterNumber}`;
+  const chapterTitleLine =
+    lines.find((line) => /^\|\|\s*.*Chapter\s*\|\|$/.test(line.trim())) ||
+    lines.find((line) => /^\|\|\s*.*\|\|$/.test(line.trim()));
+  const chapterTitle = chapterTitleLine
+    ? chapterTitleLine.replace(/^\|\|\s*/, '').replace(/\s*\|\|$/, '')
+    : Number.isFinite(chapterNumber)
+      ? `Chapter ${chapterNumber}`
+      : 'Untitled';
 
   const verses = [];
   for (const line of lines) {
@@ -47,14 +53,17 @@ async function loadChapters() {
       const chapterNumber = Number(fileName.replace('.txt', ''));
       const response = await fetch(`./raw/en/${fileName}`);
       if (!response.ok) {
-        throw new Error(`Failed to load chapter ${chapterNumber}`);
+        throw new Error(`Failed to load chapter ${fileName}`);
       }
       const text = await response.text();
-      return parseChapter(text, chapterNumber);
+      return {
+        id: fileName,
+        ...parseChapter(text, chapterNumber),
+      };
     })
   );
 
-  state.chapters = loaded.sort((a, b) => a.chapterNumber - b.chapterNumber);
+  state.chapters = loaded;
 }
 
 function buildChapterNav() {
@@ -67,7 +76,7 @@ function buildChapterNav() {
   for (const chapter of state.chapters) {
     const button = document.createElement('button');
     button.className = 'chapter-link';
-    button.dataset.chapter = String(chapter.chapterNumber);
+    button.dataset.chapter = chapter.id;
     button.textContent = chapter.chapterTitle.replace('||', '').trim();
     chapterList.appendChild(button);
   }
@@ -87,7 +96,7 @@ function getFilteredVerses() {
   const selected =
     state.selectedChapter === 'all'
       ? state.chapters
-      : state.chapters.filter((c) => c.chapterNumber === Number(state.selectedChapter));
+      : state.chapters.filter((c) => c.id === state.selectedChapter);
 
   const normalizedQuery = state.query.trim().toLowerCase();
   const rows = [];
