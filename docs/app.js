@@ -12,9 +12,7 @@ const state = {
 
 function parseChapter(raw, chapterNumber) {
   const lines = raw.split(/\r?\n/);
-  const chapterTitleLine =
-    lines.find((line) => /^\|\|\s*.*Chapter\s*\|\|$/.test(line.trim())) ||
-    lines.find((line) => /^\|\|\s*.*\|\|$/.test(line.trim()));
+  const chapterTitleLine = lines.find((line) => /^\|\|\s*.*\|\|$/.test(line.trim()));
   const chapterTitle = chapterTitleLine
     ? chapterTitleLine.replace(/^\|\|\s*/, '').replace(/\s*\|\|$/, '')
     : Number.isFinite(chapterNumber)
@@ -50,7 +48,7 @@ async function loadChapters() {
 
   const loaded = await Promise.all(
     chapterFiles.map(async (fileName) => {
-      const chapterNumber = Number(fileName.replace('.txt', ''));
+      const chapterId = Number(fileName.replace('.txt', ''));
       const response = await fetch(`./raw/en/${fileName}`);
       if (!response.ok) {
         throw new Error(`Failed to load chapter ${fileName}`);
@@ -58,7 +56,7 @@ async function loadChapters() {
       const text = await response.text();
       return {
         id: fileName,
-        ...parseChapter(text, chapterNumber),
+        ...parseChapter(text, chapterId),
       };
     })
   );
