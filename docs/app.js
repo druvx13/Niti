@@ -48,15 +48,15 @@ async function loadChapters() {
 
   const loaded = await Promise.all(
     chapterFiles.map(async (fileName) => {
-      const chapterId = Number(fileName.replace('.txt', ''));
+      const parsedChapterNumber = Number(fileName.replace('.txt', ''));
       const response = await fetch(`./raw/en/${fileName}`);
       if (!response.ok) {
-        throw new Error(`Failed to load chapter ${fileName}`);
+        throw new Error(`Failed to load chapter ${fileName}: ${response.status} ${response.statusText}`);
       }
       const text = await response.text();
       return {
         id: fileName,
-        ...parseChapter(text, chapterId),
+        ...parseChapter(text, parsedChapterNumber),
       };
     })
   );
